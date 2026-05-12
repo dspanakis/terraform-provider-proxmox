@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.107.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.106.0...v0.107.0) (2026-05-12)
+
+
+### Features
+
+* **ha:** add failback attribute to haresource ([#2865](https://github.com/bpg/terraform-provider-proxmox/issues/2865)) ([1b5e7d8](https://github.com/bpg/terraform-provider-proxmox/commit/1b5e7d85e97c7c4ab05ab2b1f6f16ef1e1da813d))
+
+
+### Bug Fixes
+
+* **access:** gate user/group acl read; deprecate inline acl ([e40c1ab](https://github.com/bpg/terraform-provider-proxmox/commit/e40c1ab8e27ae87a75db3530c4062d5f7d659156))
+
+
+### Miscellaneous
+
+* **ci:** use pull_request_target in project-automation ([f40c393](https://github.com/bpg/terraform-provider-proxmox/commit/f40c3939713d34387d46bc5a17162bbea90039e8))
+* **deps:** update golangci/golangci-lint (v2.12.1 → v2.12.2) ([#2867](https://github.com/bpg/terraform-provider-proxmox/issues/2867)) ([832e174](https://github.com/bpg/terraform-provider-proxmox/commit/832e1743f5d66183eedf4981dead9016a172d060))
+* **deps:** update image golang (1.26.2 → 1.26.3) ([#2868](https://github.com/bpg/terraform-provider-proxmox/issues/2868)) ([a729891](https://github.com/bpg/terraform-provider-proxmox/commit/a7298914781465acbcd900e25788793315747653))
+* **deps:** update module golang.org/x/net (v0.53.0 → v0.54.0) ([#2870](https://github.com/bpg/terraform-provider-proxmox/issues/2870)) ([c4f2de6](https://github.com/bpg/terraform-provider-proxmox/commit/c4f2de66446f8c1a155637ab1f62aee117f58ae6))
+* **vm2:** error format sweep ([#2861](https://github.com/bpg/terraform-provider-proxmox/issues/2861)) ([047c4d4](https://github.com/bpg/terraform-provider-proxmox/commit/047c4d426c682030c6988479393bf32976908c4d))
+
 ## [0.106.0](https://github.com/bpg/terraform-provider-proxmox/compare/v0.105.0...v0.106.0) (2026-05-06)
 
 
